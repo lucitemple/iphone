@@ -6,28 +6,29 @@
     <title>iPhone 11</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <style>
-        @font-face { 
-            font-family: 'Simplifica'; 
-            src: url('SIMPLIFICA.ttf') ;
-        }
-        h1 {
-            font-family: Simplifica;
-        }
+        @import url('http://fonts.cdnfonts.com/css/simplifica');
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Buy iPhone 11</h1>
+        <h1 class="simplifica">Buy iPhone 11</h1>
     </header>
 
     <main>
-        <img id="product" src="images/iphone11-select-2019-family.jpeg" alt="iPhone 11" >
-        <p class="description">Description text goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum esse quaerat corrupti maxime eaque facere iusto, ullam unde. Tenetur temporibus vitae assumenda fuga iure iusto voluptates, quo velit consectetur.</p>
+        <section class="left">
+            <img id="product" src="images/iphone11-select-2019-family.jpeg" alt="iPhone 11" >
+        </section>
 
-        <p id="price">From A$999</p>
+        <section class ="right">
+            <p>Description text goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum esse quaerat corrupti maxime eaque facere iusto, ullam unde. Tenetur temporibus vitae assumenda fuga iure iusto voluptates, quo velit consectetur.</p>
 
-        <a href=" "><img src="./images/shopping-basket.svg" alt="Add to basket"></a>
+            <p id="price">From A$999</p>
+
+            <img src="images/buy-button.png" alt="Buy now">
+
+            <img src="./images/shopping-basket.svg" alt="Add to basket">
+        </section>
     </main>
     
 </body>

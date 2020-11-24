@@ -1,8 +1,31 @@
-@font-face { 
-    font-family: 'Simplifica'; 
-    src: url('SIMPLIFICA.ttf') format("truetype");
+main {
+    /*width: 80%;*/
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
-    font-family: Simplifica;
+    font-family: 'Simplifica';
+    font-size: 3rem;
+}
+
+.left{
+    width: 50%;
+    text-align: left;
+    
+}
+
+
+#price {
+    color: red;
+}
+
+.right {
+    width: 30%
+    justify-content: right;
+}
+
+.right > img {
+    max-width: 50px;
 }
