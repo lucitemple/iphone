@@ -1,5 +1,6 @@
 body {
     width: 80%;
+    margin: auto;
 }
 
 h1 {
@@ -9,10 +10,8 @@ h1 {
 }
 
 .left{
-    width: 50%;
+    width: 70%;
     float: left;
-    padding: 20px;
-    
 }
 
 
@@ -23,11 +22,12 @@ h1 {
 .right {
     width: 30%
     float: right;
-    padding: 20px;
+    padding: 20px
 }
 
-.right > img {
+.right > a > img {
     max-width: 50px;
+    padding: 20px;
 }
 
 .left > img {
