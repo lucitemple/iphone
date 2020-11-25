@@ -1,18 +1,17 @@
-main {
-    /*width: 80%;*/
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+body {
+    width: 80%;
 }
 
 h1 {
     font-family: 'Simplifica';
     font-size: 3rem;
+    text-align: center;
 }
 
 .left{
     width: 50%;
-    text-align: left;
+    float: left;
+    padding: 20px;
     
 }
 
@@ -23,9 +22,14 @@ h1 {
 
 .right {
     width: 30%
-    justify-content: right;
+    float: right;
+    padding: 20px;
 }
 
 .right > img {
     max-width: 50px;
+}
+
+.left > img {
+    max-width: 600px;
 }
